@@ -1,0 +1,17 @@
+{
+  "name": "roll-up-starter",
+  "version": "0.0.0",
+  "description": "starter project with rollup",
+  "main": "build/js/main.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:dan-mckay/roll-up-starter.git"
+  },
+  "author": "@dan-mckay",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
