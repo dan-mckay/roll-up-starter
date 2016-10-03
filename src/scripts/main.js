@@ -1,6 +1,11 @@
 // Import a couple modules for testing.
 import { sayHelloTo } from './modules/mod1';
 import addArray from './modules/mod2';
+import style from './modules/module.css';
+
+console.log('---->>>>', style);
+
+console.log(style.className);
 
 // Run some functions from our imported modules.
 const result1 = sayHelloTo('dan');

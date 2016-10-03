@@ -4,7 +4,8 @@
   "description": "starter project with rollup",
   "main": "build/js/main.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "./node_modules/.bin/rollup -c"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,12 @@
   },
   "author": "@dan-mckay",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "postcss-modules": "^0.5.2",
+    "rollup": "^0.36.1",
+    "rollup-plugin-babel": "^2.6.1",
+    "rollup-plugin-postcss": "^0.2.0"
+  },
   "dependencies": {}
 }
